@@ -10,7 +10,7 @@ import { AuthProvider } from "./context/AuthContext.tsx";
 import { Toaster } from "react-hot-toast";
 
 // axios.defaults.baseURL = "http://localhost:5000/api/v1";
-axios.defaults.baseURL = "https://gen-chat-bot.netlify.app/api/v1";
+axios.defaults.baseURL = "https://chat-bot-backend-e524af48b38a.herokuapp.com/api/v1";
 axios.defaults.withCredentials = true;
 
 const theme = createTheme({
